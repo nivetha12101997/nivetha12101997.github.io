@@ -32,6 +32,6 @@ console.log(student.slice(2,-2));*/
 
 //display splicing method
 var num=[10,20,60,80,90];
-console.log(num.splice(0,3,"50,70"));
-
+console.log("removed values=" + num.splice(0,3,"50","70"));
+console.log("new array after sliced="+num);
 
