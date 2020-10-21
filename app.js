@@ -20,4 +20,6 @@ var colors=["white","yellow","blue","pink","black"];
 console.log(colors.sort());*/
 //displaying tostring method
 var days=["mon","tues","wed"];
-console.log(days.toString());
+//console.log(days.toString());
+//displaying valueOf method
+console.log(days.valueOf());
