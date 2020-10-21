@@ -36,7 +36,13 @@ console.log("removed values=" + num.splice(0,3,"50","70"));
 console.log("new array after sliced="+num);*/
 
 var array=[12,13,14,17,19,20];
-//display push
+/* display push
 array.push(31);
 console.log(array);
 console.log("array="+array.push(31));//displaying no. of .elements in array
+*/
+
+//display pop
+array.pop();
+console.log(array);
+console.log("array="+array.pop());//display popped element
