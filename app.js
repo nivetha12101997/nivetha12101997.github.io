@@ -28,10 +28,15 @@ var student=["mano","kavi","savitha","mary","tina","emy","query"];
 console.log(student.slice(0,5));
 console.log(student.slice(-5,-3));
 console.log(student.slice(-5,3));//if end value does not cross the start value,slicing is not possible
-console.log(student.slice(2,-2));*/
+console.log(student.slice(2,-2));
 
 //display splicing method
 var num=[10,20,60,80,90];
 console.log("removed values=" + num.splice(0,3,"50","70"));
-console.log("new array after sliced="+num);
+console.log("new array after sliced="+num);*/
 
+var array=[12,13,14,17,19,20];
+//display push
+array.push(31);
+console.log(array);
+console.log("array="+array.push(31));//displaying no. of .elements in array
