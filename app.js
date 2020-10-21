@@ -1,6 +1,5 @@
+//displaying concat()
 var a=[1,2,3,4,5,6,7];
-var i;
-for(i=0;i<a.length;i++)
-{
-console.log(a[i]);
-}
+var b=[8,9];
+var c=a.concat(b);
+console.log(c);
