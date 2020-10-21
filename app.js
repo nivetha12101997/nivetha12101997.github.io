@@ -14,7 +14,10 @@ console.log(c=a.join(" & "));
 console.log(a.lastIndexOf(5));
 //displaying reverse
 var x=a.reverse();
-console.log(x);*/
+console.log(x);
 //displaying sort method
 var colors=["white","yellow","blue","pink","black"];
-console.log(colors.sort());
+console.log(colors.sort());*/
+//displaying tostring method
+var days=["mon","tues","wed"];
+console.log(days.toString());
