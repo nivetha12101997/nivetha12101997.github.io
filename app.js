@@ -11,4 +11,7 @@ var a=["social","science","maths","english"];
 var c;
 console.log(c=a.join(" & "));*/
 //displaying lastindexOf method
-console.log(a.lastIndexOf(5));
+//console.log(a.lastIndexOf(5));
+//displaying reverse
+var x=a.reverse();
+console.log(x);
