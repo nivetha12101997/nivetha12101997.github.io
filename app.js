@@ -27,5 +27,7 @@ console.log(days.valueOf());*/
 var student=["mano","kavi","savitha","mary","tina","emy","query"];
 console.log(student.slice(0,5));
 console.log(student.slice(-5,-3));
-console.log(student.slice(-5,3));
+console.log(student.slice(-5,3));//if end value does not cross the start value,slicing is not possible
 console.log(student.slice(2,-2));
+
+
