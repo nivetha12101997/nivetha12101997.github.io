@@ -17,9 +17,15 @@ var x=a.reverse();
 console.log(x);
 //displaying sort method
 var colors=["white","yellow","blue","pink","black"];
-console.log(colors.sort());*/
+console.log(colors.sort());
 //displaying tostring method
 var days=["mon","tues","wed"];
 //console.log(days.toString());
 //displaying valueOf method
-console.log(days.valueOf());
+console.log(days.valueOf());*/
+//displaying slice method
+var student=["mano","kavi","savitha","mary","tina","emy","query"];
+console.log(student.slice(0,5));
+console.log(student.slice(-5,-3));
+console.log(student.slice(-5,3));
+console.log(student.slice(2,-2));
