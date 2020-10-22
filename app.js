@@ -47,8 +47,12 @@ array.pop();
 console.log(array);
 console.log("array="+array.pop());//display popped element*/
 
-//add value at first
+/*//add value at first
 array.unshift(5);
 console.log(array);
 console.log("array="+array.unshift(5));//display no.of. elements
+console.log(array);*/
+
+//remove the first item
+array.shift();
 console.log(array);
